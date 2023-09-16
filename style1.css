@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+* {
+  font-family: 'Tilt Prism', cursive;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background: url('imgs/bg_black.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: lightgray;
+    text-align: center;
+  }
+
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading h1 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(201, 82, 82);
+  background-color: black;
+  opacity: 0.6;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 225px;
+  z-index: 0;
+}
+
+
+.option {
+  border: 2px solid white;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: grey;
+  opacity: 0.6;
+}
+
+.option:hover {
+  color: black;
+  background-color: white;
+}
+
+.box {
+  position: relative;
+  top: 250px;
+  background-color: rgba(214, 214, 214, 0.6);
+  padding: 5px;
+  margin: 0 30px;
+  display: none;
+  border-radius: 10px;
+}
+
+.box p {
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.box button {
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+
+.box h4 {
+  margin: 10px;
+  text-align: center;
+}
+
+#play-now a {
+  text-decoration: none;
+  color: white;
+}
+
+#play-now:hover a {
+  color: black;
+}
